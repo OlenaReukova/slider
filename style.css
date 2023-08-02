@@ -9,6 +9,16 @@ body {
   font-family: sans-serif;
 }
 
+header {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  padding: 5px;
+}
+
 .container {
   max-width: 1200px;
   margin: 30px auto;
@@ -31,6 +41,8 @@ button {
 
 button:hover {
   background: orangered;
+  color: #fff;
+  border-color: #fff;
 }
 
 button:active {
@@ -66,4 +78,8 @@ button:active {
   position: relative;
   left: 0;
   transition: all ease 1s;
+}
+img {
+  width: 256px;
+  height: 256px;
 }
